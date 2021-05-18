@@ -1,12 +1,9 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import "./Home.css"
+import "../Home.css";
 
 
-
-
-
-function Header () {
+function Home () {
     return (
         <div className="header">
         <ul>
@@ -17,7 +14,7 @@ function Header () {
         </ul>
 
 
-
+        <div>
         <div className="header-text">
         <h2>Nicholas Esquilo Torres</h2>
         <h4>Full Stack Web Developer</h4>
@@ -30,12 +27,9 @@ function Header () {
         <p>I am web developer based out of Tampa, Florida and have a passion for computers</p>
         </div>
 
-
-
         </div>
-
+        </div>
     )
 }
 
-
-export default Header;
+export default Home;
